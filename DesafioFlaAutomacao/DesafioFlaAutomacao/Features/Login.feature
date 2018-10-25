@@ -23,4 +23,5 @@ Cenário: Login Inválido
 	| dado  | valor   |
 	| login | <login> |
 	| senha | <senha> |
-	Então deve ser apresentado a mensagem ''
+	Então deve ser apresentado a mensagem 'Sua conta pode estar desativada ou bloqueada ou o nome de usuário e a senha que você digitou não estão corretos.'
+	E não acessa o sistema
