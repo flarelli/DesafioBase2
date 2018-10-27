@@ -1,16 +1,16 @@
-﻿using AutomacaoBDD.Helpers;
-using NUnit.Framework;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Support.UI;
+﻿using DesafioBase2_Flavia.Utilitarios;
 using System;
+using System.Collections.Generic;
 using System.Configuration;
-using System.Threading;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-
-namespace DesafioFlaAutomacao.Pages
+namespace DesafioBase2_Flavia.Pages
 {
     public class LoginPage : PageBase
     {
+
         #region Ações
         public void AbrePaginaLogin()
         {

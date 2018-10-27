@@ -1,6 +1,4 @@
-﻿using AutomacaoBDD.Functions;
-using AutomacaoBDD.Helpers;
-using NUnit.Framework;
+﻿
 using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.PageObjects;
@@ -12,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using System.Windows.Forms;
+
 
 namespace AutomacaoBDD.Helpers
 {
